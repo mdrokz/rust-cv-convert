@@ -287,8 +287,8 @@ pub use opencv_0_70 as opencv;
 #[cfg(feature = "ndarray_0-15")]
 pub use ndarray_0_15 as ndarray;
 
-#[cfg(feature = "tch_0-8")]
-pub use tch_0_8 as tch;
+#[cfg(feature = "tch_0-9")]
+pub use tch_0_9 as tch;
 
 #[cfg(feature = "imageproc_0-23")]
 pub use imageproc_0_23 as imageproc;

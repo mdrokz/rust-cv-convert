@@ -18,11 +18,11 @@ docs-only = [
     'image_0-24',
     'imageproc_0-23',
     'opencv_0-68',
-    'tch_0-8',
+    'tch_0-9',
     'nalgebra_0-31',
     'ndarray_0-15',
     'opencv_0-68/docs-only',
-    'tch_0-8/doc-only',
+    'tch_0-9/doc-only',
 ]
 
 [dev-dependencies]
@@ -157,8 +157,15 @@ default-features = true
 features = []
 optional = true
 
-[dependencies.tch_0-8]
-version = '0.8'
+# [dependencies.tch_0-8]
+# version = '0.8'
+# package = 'tch'
+# default-features = true
+# features = []
+# optional = true
+
+[dependencies.tch_0-9]
+version = '0.9.0'
 package = 'tch'
 default-features = true
 features = []

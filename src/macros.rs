@@ -94,7 +94,7 @@ pub(crate) use has_ndarray;
 macro_rules! if_tch {
     ($($item:item)*) => {
         $(
-            #[cfg(any(feature = "tch_0-8"))]
+            #[cfg(any(feature = "tch_0-9"))]
             $item
         )*
     };
